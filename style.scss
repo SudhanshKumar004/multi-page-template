@@ -23,6 +23,10 @@
             display: flex;
             justify-content: space-between;
             align-items: center;
+            position: fixed;
+            width: 100%;
+            z-index: 25;
+        
 
 
             // .marq{
@@ -96,7 +100,7 @@
             display: flex;
             justify-content: space-between;
             align-items: center;
-            margin-top: 10px;
+            margin-top: 90px;
 
             ul{
                 a{
@@ -140,6 +144,7 @@
         top: 57%;
         left: 70%;
         overflow: hidden;
+        
         border: 1px solid wheat;
         box-shadow: 10px 25px 30px rgba(2, 2, 13, 0.756);
         
@@ -198,6 +203,148 @@
 
 
 }
+
+.products{
+     height: 100vh;
+    width: 100%;
+    height: 1100px;
+    background-image:url(/beng-ragon-of8POeoXQT8-unsplash.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+
+
+    .top-heading{
+        i{
+            color: gold;
+        }
+
+        text-align: center;
+        color:whitesmoke;
+        padding: 50px;
+        font-size: 35px;
+        font-family:'Times New Roman', Times, serif;
+        text-shadow: 0 0 8px rebeccapurple, 0 0 5px red
+    }
+    .card{
+        padding-left: 10px;
+        overflow: hidden;
+        cursor: pointer;
+
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        .item{
+            width: 400px;
+            height: 750px;
+            border-radius: 20px;
+            background-color: #fbeaeb71;
+
+            .data{
+                padding: 15px;
+            }
+            img{
+                border-radius: 20px;
+                // width: 100%;
+                // height: 100%;
+                filter: grayscale(0.4);
+                transition: .3s;
+            }
+
+            img:hover{
+                filter: grayscale(0);
+                transform: scale(.9) ;
+            }
+        
+            text-align: center;
+            padding: 10px;
+            .rating{
+                padding-bottom: 5px;
+                font-size:$rating_size ;
+                i{
+                    color: gold;
+                    }
+            }
+
+            .title{
+                font-size: $title_of_product;
+                padding-bottom: 8px;
+                color: $title_color;
+            }
+
+            .price{
+                font-size:$price_of_product ;
+            }
+
+            .btn{
+                margin-top: 5px;
+                font-size: 20px;
+                padding: 5px;
+                background-color: rgba(255, 255, 0, 0.676);
+                border: 1px yellow solid;
+                border-radius: 20px;
+
+                a{
+                    text-decoration: none;
+                    color: black;
+                }
+            }
+              .btn:hover{
+                background-color:yellow;
+                transition: all;
+                transition-duration: 0.1s;
+                transition-timing-function: ease-in-out;
+                font-size: 23px;
+
+                
+              }  
+        }
+    }
+
+    .more{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        margin-top: 50px;
+        text-align: center;
+        font-size: 40px;
+        a{
+            text-decoration: none;
+            color: #EDF4F2;
+        }
+
+        .more2{
+            width: 80%;
+            border:1px beige solid;
+            border-radius: 20px;
+        }
+    }
+    .more2:hover{
+            transition: all;
+            transition-duration: 0.1s;
+            transition-timing-function: ease-in-out;
+            transform:scale(1.1,1.1);
+        }
+}
+
+.products * {
+    z-index: 20;
+}
+
+
+.products::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    height: 1100px;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+
+
+
+
+
+
+
 
 
 //Tablet View
