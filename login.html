@@ -3,8 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="checkout.css" />
-    <title>Checkout page</title>
+    <link rel="stylesheet" href="login.css" />
+    <title>Login Page</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -35,79 +35,90 @@
             <input type="text" name="search" placeholder="Shoes, clothes, etc" class="search-bar">
             <input type="submit" value="Search" class="search-btn ">
           </form>
-
           <ul>
             <a href="/index.html"><i class="fa-solid fa-house" class="user"></i>Home</a>
             <a href="#member"><i class="fa-solid fa-star" class="user"></i></i>Membership</a>
             <a href="#about"><i class="fa-solid fa-book" class="user"></i>About</a>
-            <a href="@login.html"><i class="fa-solid fa-user" class="user"></i></i>Login</a>
+            <a href="/login.html"><i class="fa-solid fa-user" class="user"></i></i>Login</a>
           </ul>
           <label for="check" class="open-menu"><i class="fa-solid fa-bars"></i></label>
         </nav>
       </div>
       <hr>
-      <div class="navbar2">
-        <h1>Checkout</h1>
-      </div>
-      <hr>
 
-      <!-- Section for Product total -->
-      <section class="cart2">
-        <div class="img-side">
-            <h1><i class="fa-solid fa-bag-shopping"></i> Your Order </h1>
-            <div class="img-side2">
-            <img src="/samsung.jpeg" alt="" height="220px" width="220px">
-            <h1 class="title">SAMSUNG Galaxy S24 Ultra 5G <br> (12, 256 GB)</h1>
-            <h1>QUANTITY  <br><br><br>
-                <span class="one">1</span>
-            </h1>
-            <h1 class="rupee">PRICE <br><br><br>
-                1,29,999 Rs</h1>
-            </div>
-            <div class="delivery">
-                <div></div>
-                <div></div>
-                <div>
-                    <h1>SHIPPING CHARGES</h1>
-                </div>
-                <div class="rupee">FREE</div>
-            </div>
-            <div class="price">
-                <div></div>
-                <div></div>
-                <div>
-                    <h1>SUBTOTAL</h1>
-                </div>
-                <div class="rupee">1,29,999 Rs.</div>
-            </div>
+      <div class="login-page">
+        <h1><i class="fa-solid fa-right-to-bracket"></i> Registration Form</h1>
         
+        <div class="formm">
+          <form action="demo.php" method="post" class="formm">
+          <div>
+            <label for="name" class="up">Enter Name</label>
+            <input type="text" id="name" placeholder="Enter Name" class="in" required>
+          </div>
+          <br>
+          <div>
+            <label for="email" class="up">Enter Email</label>
+            <input type="email" id="email" placeholder="Email" class="in">
+          </div>
+          <br>
+          <div>
+            <label for="dob" class="up">Date Of Birth</label>
+            <input type="date" id="dob" class="in">
+          </div>
+          <br>
+          <div>
+            <label for="gender" class="up">Gender</label>
+            <input type="radio" name="gender" value="Male" class="g">Male
+            <input type="radio" name="gender" value="Female" class="g">Female
+            <input type="radio" name="gender" value="Prefer Not to Say" class="g">Prefer Not to Say
+          </div>
+          <br>
+          <div>
+            <label for="number" class="up">Phone Number</label>
+            <input type="number" id="number" placeholder="+91" class="in" required>
+          </div>
+          <br>
+          <div>
+            <label for="address" class="up">Address</label>
+            <textarea id="address" placeholder="Address" class="in"></textarea required>
+          </div>
+          <br>
+          <div>
+            <label for="city" class="up">City</label>
+            <input type="text" id="city" placeholder="City" class="in" required>
+          </div>
+          <br>
+          <div>
+            <label for="state" class="up">State</label>
+            <select id="state" class="in">
+              <option value="Madhya Pradesh">Madhya Pradesh</option>
+              <option value="Uttar Pradesh">Uttar Pradesh</option>
+              <option value="Maharashtra">Maharashtra</option>
+              <option value="Rajasthan">Rajasthan</option>
+              <option value="Delhi">Delhi</option>
+              <option value="Gujarat">Gujarat</option>
+              <option value="Haryana">Haryana</option>
+              <option value="Punjab">Punjab</option>
+            </select>
+          </div>
+          <br>
+          <div>
+            <input type="checkbox" id="terms" required>
+            <label for="terms" class="up">I Accept the Terms and Conditions</label>
+          </div>
+          <br>
+          <div class="btnn">
+            <button class="btn3"><a href="/products.html">Sign Up</a></button>
+          </div>
+        </form>
         </div>
-        <div class="data">
-      </section>
+        </div>
+    </header>
 
-      <!-- section for Name And Address -->
-      <section class="cart2">
-        <div class="img-side">
-            <h1><i class="fa-solid fa-truck-fast"></i>SHIPPING ADDRESS </h1>
-            <div class="img-side2">
-            <h1 class="name">Mr. Akshay Kumar</h1>
-            <h1 class="address">A-51, New Apartments, opp. bus depo
-                , Bandra road, Bandra, Mumbai, Maharashtra, 002310
-            </h1>
-            <h1>Cash On Delivery</h1>
-            <h1><strong>EMAIL:</strong>ak47@gmail.com
-            <br><strong>CONTECT.NO.</strong>9877664300</h1>
-            </div>
-            </div>
 
-            </section>
 
-            <!-- Section for button -->
-      <section class="button1">
-                <button class="btn2"><a href="/orderplaced.html">Place Order</a></button>
-            </section>
-
-      <footer class="foot">
+     <!-- Footer section -->
+    <footer class="foot">
         <div class="icons">
           <a href=""><i class="fa-brands fa-instagram"></i></a>
             <a href=""><i class="fa-brands fa-x-twitter"></i></a>
@@ -157,6 +168,5 @@
           <h1>CopyRight &copy; 2024 All Rights Reserved | This template is made by Sudhansh</h1>
         </div>
       </footer>
-      
-      </body>
-      </html>
+    </body>
+</html>

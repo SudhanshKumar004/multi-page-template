@@ -9,12 +9,10 @@
 }
 
 body{
-    width: 100%;
-
+    background-color: #FBEAEB;
     #check{
         display: none;
     }
-
 
 
 .hero{
@@ -133,128 +131,93 @@ body{
                 }
         }
     }
+    .login-page{
 
-.products{
-
-    padding-top: 30px;
-    .catgry{
-            font-size: 40px;
-            h1{
-                span{
-                    color: red;
-                }
-            }
-        }
-    }
-    .protop{
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-
-        .mob{
-            img{
-                margin-top: 35px;
-            }
+        margin-top: 80px;
+        font-size: 25px;
+        i{
+            color: orange;
         }
 
-        .item2{
-            img{
-                margin-top: 55px;
-            }
-        }
-
-        .item{
-            width: 260px;
-            height: 530px;
-            background: linear-gradient(45deg,rgb(169, 198, 198),whitesmoke,wheat);
-            border-radius: 5px;
-            border: 1px rgba(0, 0, 0, 0.375) solid;
-            border-bottom:1px darkslategray solid;
-            border-right: 1px darkslategray solid;
-            padding: 20px;
-             padding-top: 30px;
-            margin: 20px;
-
-            .lep{
-                margin-top: 58px;
-            }
-
-            .sandal{
-                margin-top: 40px;
-            }
-
-            .data{
-                padding: 15px;
-                margin-top: 40px;
-            }
-            img{
-                padding-top: 10px;
-                border-radius: 0px;
-                
-            }
-
-            img:hover{
-                transform: scale(1.02) ;
-                // border-left:2px #2F3C7E solid ;
-                // border-right:2px #2F3C7E solid ;
-                // box-shadow: 0 0 8px, 0 0 5px black;
-            }
-        
+        h1{
             text-align: center;
-            padding: 10px;
-
-            .rating{
-                padding-bottom: 5px;
-                font-size:20px ;
-                i{
-                    color: gold;
-                    }
-            }
-
-            .title{
-                font-size: 20px;
-                padding-bottom: 8px;
-                font-family: "SUSE", sans-serif;
-                color: black;
-            }
-
-            .price{
-                font-family: "SUSE", sans-serif;
-                font-size:20px ;
-            }
-
-            .btn{
-                margin-top: 5px;
-                font-size: 20px;
-                padding: 5px;
-                // background-color:coral;
-                background-color: rgb(255, 55, 55);
-                border: 1px #2F3C7E solid;
-            
-
-                a{
-                    text-decoration: none;
-                    color:white;
-                }
-            }
-              .btn:hover{
-                background-color: rgb(193, 4, 4);
-                transition: all;
-                transition-duration: 0.1s;
-                transition-timing-function: ease-in-out;
-                font-size: 23px;
-
-                
-              }  
+            color: whitesmoke;
+            padding-top: 10px;
+            text-shadow: 0 0 5px darkslategray, 0 0 10px darkslategrey;
         }
-        .item:hover{
-                // border: 2px #2F3C7E solid;
-                box-shadow: 0 0 8px, 0 0 5px black;
-              }
+
+    
+        .formm{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            background:linear-gradient(45deg,);
+            width: 90%;
+            padding: 20px;
+            margin-left: 60px;
+            height: 100%;
+            font-size: 18px;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            color: black;
+            gap: 10px;
+
+            .in{
+                font-size: 25px;
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                font-weight: lighter;
+                padding: 10px;
+                width: 100%;
+                opacity: 0.8;
+            }
+
+            .in:hover{
+                border: 2px green solid;
+            }
+            .up{
+             font-size: 25px;
+             color: whitesmoke;
+             text-shadow: 0 0 5px black,0 0 10px darkslategray;
+            }
+
+            .g{
+                font-size: 20px
+            }
+
+            .btnn{
+                text-align: center;
+                margin-bottom: 10px;
+                 .btn3{
+                    a{
+                    font-size: 30px;
+                    text-decoration: none;
+                    font-family: Georgia, 'Times New Roman', Times, serif;
+                    color: black;
+                    padding: 10px;
+                    }
+                    padding: 5px 15px;
+                    border: 2px whitesmoke solid;
+                    border-radius: 15px;
+                    background:linear-gradient(45deg,darkslategray,whitesmoke);
+                 }
+                 .btn3:hover{
+                    transition: all;
+                    transition-duration: 0.1s;
+                    transition-timing-function: ease-in-out;
+                    transform: scale(1.2,1.2);
+                    background: linear-gradient(45deg,whitesmoke,darkslategrey);
+                 }
+            }
+        }
     }
 
+        @include backphoto(url(/rachel-snitker-u1x1epBOG5w-unsplash.jpg));
+        height: 1350px;
+        
+        
+    
 }
 .foot{
-    width: 100%;
+    margin-top: 80px;
     background-color:darkslategray;
     .icons{
         padding-top: 30px;
@@ -358,7 +321,7 @@ body{
 }
 }
 
-
+// Tablet View
 @media screen and (max-width: 768px){
     body{
         .hero{
@@ -465,10 +428,11 @@ body{
         }
     }
 
-    .protop{
-        grid-template-columns: 1fr 1fr;
-        margin-left: 40px;
-    }
+    .login-page{
+                .formm{
+                    margin-left: 40px;
+                }
+            }
         }
 
         #check:checked ~ .hero .navbar nav ul{
@@ -600,50 +564,8 @@ body{
 }
 
 // Mobile View
-@media screen and (max-width: 424px){
+@media screen and (max-width: 768px){
     body{
-        .hero{
-            .navbar2{
-        nav{
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            margin-top: 90px;
-
-            ul{
-                display: grid;
-                grid-template-columns: 1fr 1fr;
-                a{
-                 color:rgb(30, 50, 50);
-                 font-family: "SUSE", sans-serif;
-                text-decoration: none;
-                font-size: 19px;
-                padding: 10px;
-                padding-top: 20px;
-            }
-                
-            }
-            a{
-                 color:rgb(30, 50, 50);
-                 font-family: "SUSE", sans-serif;
-                text-decoration: none;
-                padding-right: 20px;
-                font-size: 1px;
-            }
-
-            a:hover{
-                    color:wheat;
-                    text-shadow: 0 0 5px darkslategray, 0 0 10px black;
-                }
-        }
-    }
-
-        .protop{
-            grid-template-columns: 1fr;
-            margin-left: 50px;
-        }
-        }
-        
          #check:checked ~ .hero .navbar nav ul{
                 display: block;
                 display: flex;
@@ -662,6 +584,13 @@ body{
                 transition-timing-function: ease-in-out;
                 padding-top: 20px;
             }
+        .hero{
+            .login-page{
+                .formm{
+                    margin-left: 20px;
+                }
+            }
+        }
         .foot{
             .foot-container{
                 grid-template-columns: 1fr;

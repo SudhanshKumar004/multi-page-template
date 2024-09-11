@@ -1,0 +1,182 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  color: #fff;
+}
+
+body #check {
+  display: none;
+}
+
+body .context {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 20px;
+  width: 100%;
+  position: absolute;
+  top: 50vh;
+}
+
+body .context h1 {
+  text-align: center;
+  font-size: 100px;
+  color: whitesmoke;
+  text-shadow: 0 0 5px darkslategrey, 0 0 8px wheat;
+}
+
+body .context .btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 10px;
+  border: 2px whitesmoke solid;
+  background: -webkit-gradient(linear, left top, left bottom, from(orangered), to(darkslategrey));
+  background: linear-gradient(orangered, darkslategrey);
+  z-index: 20;
+}
+
+body .context .btn a {
+  text-align: center;
+  color: whitesmoke;
+  text-decoration: none;
+  font-size: 25px;
+}
+
+body .context .btn:hover {
+  background: linear-gradient(45deg, orangered, darkslategray);
+  -webkit-transition: all;
+  transition: all;
+  -webkit-transition-duration: 0.2s;
+          transition-duration: 0.2s;
+  -webkit-transition-timing-function: ease-in-out;
+          transition-timing-function: ease-in-out;
+  -webkit-transform: scale(1.1, 1.1);
+          transform: scale(1.1, 1.1);
+}
+
+body .area {
+  background: -webkit-gradient(linear, left top, left bottom, from(orangered), to(darkslategray));
+  background: linear-gradient(orangered, darkslategray);
+  width: 100%;
+  height: 100vh;
+}
+
+body .area .circles {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+body .area .circles li {
+  position: absolute;
+  display: block;
+  list-style: none;
+  -webkit-animation: drops 25s linear infinite;
+          animation: drops 25s linear infinite;
+  top: -150px;
+}
+
+body .area .circles li i {
+  font-size: 100px;
+  color: #e3aaaa;
+}
+
+body .area .circles li:nth-child(1) {
+  left: 25%;
+  -webkit-animation-delay: 0s;
+          animation-delay: 0s;
+}
+
+body .area .circles li:nth-child(2) {
+  left: 10%;
+  -webkit-animation-delay: 2s;
+          animation-delay: 2s;
+  -webkit-animation-duration: 12s;
+          animation-duration: 12s;
+}
+
+body .area .circles li:nth-child(3) {
+  left: 50%;
+  -webkit-animation-delay: 4s;
+          animation-delay: 4s;
+}
+
+body .area .circles li:nth-child(4) {
+  left: 40%;
+  -webkit-animation-delay: 0s;
+          animation-delay: 0s;
+  -webkit-animation-duration: 18s;
+          animation-duration: 18s;
+}
+
+body .area .circles li:nth-child(5) {
+  left: 65%;
+  -webkit-animation-delay: 0s;
+          animation-delay: 0s;
+}
+
+body .area .circles li:nth-child(6) {
+  left: 75%;
+  -webkit-animation-delay: 3s;
+          animation-delay: 3s;
+}
+
+body .area .circles li:nth-child(7) {
+  left: 35%;
+  -webkit-animation-delay: 7s;
+          animation-delay: 7s;
+}
+
+body .area .circles li:nth-child(8) {
+  left: 50%;
+  -webkit-animation-delay: 15s;
+          animation-delay: 15s;
+  -webkit-animation-duration: 45s;
+          animation-duration: 45s;
+}
+
+@-webkit-keyframes drops {
+  0% {
+    -webkit-transform: translateY(0) rotate(0deg);
+            transform: translateY(0) rotate(0deg);
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: translateY(1000px) rotate(720deg);
+            transform: translateY(1000px) rotate(720deg);
+    opacity: 0;
+  }
+}
+
+@keyframes drops {
+  0% {
+    -webkit-transform: translateY(0) rotate(0deg);
+            transform: translateY(0) rotate(0deg);
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: translateY(1000px) rotate(720deg);
+            transform: translateY(1000px) rotate(720deg);
+    opacity: 0;
+  }
+}
+/*# sourceMappingURL=order.css.map */
