@@ -12,7 +12,7 @@ body #check {
 body .hero {
   height: 100vh;
   width: 100%;
-  background-image: url(/priscilla-du-preez-dlxLGIy-2VU-unsplash.jpg);
+  background-image: url(./priscilla-du-preez-dlxLGIy-2VU-unsplash.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -272,7 +272,7 @@ body .hero .container .slide-img img {
 body .products {
   height: 100vh;
   width: 100%;
-  background-image: url(/magicpattern-oPH_5xuMgQw-unsplash.jpg);
+  background-image: url(./magicpattern-oPH_5xuMgQw-unsplash.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   height: 850px;
@@ -427,7 +427,7 @@ body .products::before {
 body .plan {
   height: 100vh;
   width: 100%;
-  background-image: url(/magicpattern-oPH_5xuMgQw-unsplash.jpg);
+  background-image: url(./magicpattern-oPH_5xuMgQw-unsplash.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   height: 820px;
@@ -527,7 +527,7 @@ body .plan .box2 .plan2 .benifits .box:hover {
 body .aboutuss {
   height: 100vh;
   width: 100%;
-  background-image: url(/ikhlas-r-Ick10G7xPek-unsplash.jpg);
+  background-image: url(./ikhlas-r-Ick10G7xPek-unsplash.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   height: 200px;
@@ -709,7 +709,7 @@ body .foot .copyright {
   body .hero {
     height: 100vh;
     width: 100%;
-    background-image: url(/priscilla-du-preez-dlxLGIy-2VU-unsplash.jpg);
+    background-image: url(./priscilla-du-preez-dlxLGIy-2VU-unsplash.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
@@ -969,7 +969,7 @@ body .foot .copyright {
   body .products {
     height: 100vh;
     width: 100%;
-    background-image: url(/magicpattern-oPH_5xuMgQw-unsplash.jpg);
+    background-image: url(./magicpattern-oPH_5xuMgQw-unsplash.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 100%;
@@ -1107,7 +1107,7 @@ body .foot .copyright {
   body .plan {
     height: 100vh;
     width: 100%;
-    background-image: url(/magicpattern-oPH_5xuMgQw-unsplash.jpg);
+    background-image: url(./magicpattern-oPH_5xuMgQw-unsplash.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 820px;
@@ -1194,7 +1194,7 @@ body .foot .copyright {
   body .aboutuss {
     height: 100vh;
     width: 100%;
-    background-image: url(/ikhlas-r-Ick10G7xPek-unsplash.jpg);
+    background-image: url(./ikhlas-r-Ick10G7xPek-unsplash.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 200px;
@@ -1363,7 +1363,7 @@ body .foot .copyright {
   body .hero {
     height: 100vh;
     width: 100%;
-    background-image: url(/priscilla-du-preez-dlxLGIy-2VU-unsplash.jpg);
+    background-image: url(./priscilla-du-preez-dlxLGIy-2VU-unsplash.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
@@ -1629,7 +1629,7 @@ body .foot .copyright {
   body .products {
     height: 100vh;
     width: 100%;
-    background-image: url(/magicpattern-oPH_5xuMgQw-unsplash.jpg);
+    background-image: url(./magicpattern-oPH_5xuMgQw-unsplash.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 100%;
@@ -1850,7 +1850,7 @@ body .foot .copyright {
   body .aboutuss {
     height: 100vh;
     width: 100%;
-    background-image: url(/ikhlas-r-Ick10G7xPek-unsplash.jpg);
+    background-image: url(./ikhlas-r-Ick10G7xPek-unsplash.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 200px;

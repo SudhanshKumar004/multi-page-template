@@ -14,7 +14,7 @@ body{
         display: none;
     }
 .hero{
-    @include backphoto(url(/priscilla-du-preez-dlxLGIy-2VU-unsplash.jpg));
+    @include backphoto(url(./priscilla-du-preez-dlxLGIy-2VU-unsplash.jpg));
     
 
     .navbar{
@@ -209,7 +209,7 @@ body{
 
 .products{
     
-    @include backphoto(url(/magicpattern-oPH_5xuMgQw-unsplash.jpg));
+    @include backphoto(url(./magicpattern-oPH_5xuMgQw-unsplash.jpg));
     height:850px;
 
 
@@ -347,7 +347,7 @@ body{
 .plan{
 
 
-    @include backphoto(url(/magicpattern-oPH_5xuMgQw-unsplash.jpg));
+    @include backphoto(url(./magicpattern-oPH_5xuMgQw-unsplash.jpg));
     height:820px;
 
     .plan-top{
@@ -425,7 +425,7 @@ body{
 
 .aboutuss{
 
-    @include backphoto(url(/ikhlas-r-Ick10G7xPek-unsplash.jpg));
+    @include backphoto(url(./ikhlas-r-Ick10G7xPek-unsplash.jpg));
     height: 200px;
     span{
             color: red;
@@ -578,7 +578,7 @@ body{
 
 
 .hero{
-    @include backphoto(url(/priscilla-du-preez-dlxLGIy-2VU-unsplash.jpg));
+    @include backphoto(url(./priscilla-du-preez-dlxLGIy-2VU-unsplash.jpg));
     width: 100%;
     
 
@@ -782,7 +782,7 @@ body{
             }
 .products{
     
-    @include backphoto(url(/magicpattern-oPH_5xuMgQw-unsplash.jpg));
+    @include backphoto(url(./magicpattern-oPH_5xuMgQw-unsplash.jpg));
     height:100%;
 
 
@@ -922,7 +922,7 @@ body{
 .plan{
 
 
-    @include backphoto(url(/magicpattern-oPH_5xuMgQw-unsplash.jpg));
+    @include backphoto(url(./magicpattern-oPH_5xuMgQw-unsplash.jpg));
     height:820px;
 
     .plan-top{
@@ -1000,7 +1000,7 @@ body{
 
 .aboutuss{
 
-    @include backphoto(url(/ikhlas-r-Ick10G7xPek-unsplash.jpg));
+    @include backphoto(url(./ikhlas-r-Ick10G7xPek-unsplash.jpg));
     height: 200px;
     span{
             color: red;
@@ -1161,7 +1161,7 @@ body{
 
 
 .hero{
-    @include backphoto(url(/priscilla-du-preez-dlxLGIy-2VU-unsplash.jpg));
+    @include backphoto(url(./priscilla-du-preez-dlxLGIy-2VU-unsplash.jpg));
     width: 100%;
     
 
@@ -1367,7 +1367,7 @@ body{
             }
 .products{
     
-    @include backphoto(url(/magicpattern-oPH_5xuMgQw-unsplash.jpg));
+    @include backphoto(url(./magicpattern-oPH_5xuMgQw-unsplash.jpg));
     height:100%;
 
 
@@ -1586,7 +1586,7 @@ body{
 
 .aboutuss{
 
-    @include backphoto(url(/ikhlas-r-Ick10G7xPek-unsplash.jpg));
+    @include backphoto(url(./ikhlas-r-Ick10G7xPek-unsplash.jpg));
     height: 200px;
     margin-top: 600px;
     span{
